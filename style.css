@@ -1,0 +1,90 @@
+*
+{
+    margin-right: 0;
+    padding: 0;
+    box-sizing: 0;
+    
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #111;
+    transition: 0.5s;
+}
+#toggle
+{
+    width: 200px;
+    height: 100px;
+    position: relative;
+    align-items: center;
+    background: white;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#toggle #button
+{
+    width: 100px;
+    height: 100px;
+    background: black;
+    border-radius: 50%;
+    transform: scale(0.9);
+    position: relative;
+    transition: 0.5s;
+    left: 0;
+    top: 0;
+    
+}
+body.active
+{
+    background: white;
+    transition: 0.5s;
+}
+#toggle.active
+{
+    background: #111;
+    transition: 0.5s;
+}
+#toggle.active #button
+{
+    background: white;
+    left: 100px;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
